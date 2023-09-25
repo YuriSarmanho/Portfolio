@@ -1,0 +1,33 @@
+footer {
+  background-color: var(--FOOTER-BGCOLOR);
+  height: 200px;
+  display: none;
+  justify-content: center;
+  align-items: center;
+}
+
+.social-media-footer {
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  grid-gap: 1em;
+}
+
+.social-icon-footer {
+  color: #eab465;
+  font-size: 1.5rem;
+}
+
+.social-media-footer li a {
+  color: var(--SECONDARY-COLOR);
+  text-decoration: none;
+}
+.social-media-footer li{
+    justify-content: center;
+    /* align-items: center; */
+}
+
+@media (max-width:480px) {
+  footer {
+    display: flex;
+  }
+}

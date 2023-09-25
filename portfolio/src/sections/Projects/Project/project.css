@@ -1,0 +1,35 @@
+.project-container {
+    background-color: var(--SECONDARY-BG);
+    width: 280px;
+    border-radius: 1em;
+    padding: 1.5em;
+}
+
+.project-header {
+    justify-content: space-between;
+    margin-bottom: .7em;
+}
+.project-links a{
+    font-size: 1.3em;
+    margin-right: .2em;
+    color: var(--PRIMARY-COLOR-DARK);
+}
+
+.project-links a:hover{
+    color: var(--PRIMARY-COLOR);
+}
+
+
+.project-info{
+    font-family: "Share Tech Mono";
+}
+.project-info h3{
+    font-size: 1.3rem;
+}
+
+.project-description {
+    margin-top: 1em;
+    text-align: justify;
+    color: var(--SECONDARY-COLOR);
+    font-size: 1rem;
+}

@@ -1,0 +1,59 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;600&family=Share+Tech+Mono&display=swap");
+* {
+  --PRIMARY-BG: #0e0e0e;
+  --SECONDARY-BG: #1F170D;
+  --PRIMARY-COLOR: #d47300;
+  --PRIMARY-COLOR-DARK: #894a00;
+  --PRIMARY-COLOR-HOVER: #d49800;
+  --SECONDARY-COLOR: #fff4ca;
+  --FOOTER-BGCOLOR: #5c2b00;
+
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--PRIMARY-BG);
+  font-family: "Poppins";
+  color: var(--PRIMARY-COLOR);
+}
+
+section {
+  height: 100vh;
+  align-items: center;
+  flex-direction: column;
+  display: flex;
+}
+
+section h2 {
+  font-size: 2em;
+  color: var(--SECONDARY-COLOR);
+  padding: 3em 0 2em 0;
+}
+
+.flex {
+  display: flex;
+  gap: var(--gap, 1rem);
+}
+
+.grid {
+  display: grid;
+  gap: var(--gap, 1rem);
+}
+
+/*scroll style*/
+
+body::-webkit-scrollbar {
+  width: 12px;               /* width of the entire scrollbar */
+}
+
+body::-webkit-scrollbar-track {
+  background-color: rgba(0, 0, 0, 0.4); /* color of the tracking area */
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: var(--PRIMARY-COLOR);    /* color of the scroll thumb */
+  border-radius: 20px;       /* roundness of the scroll thumb */
+  /* border: 3px solid orange;  creates padding around scroll thumb */
+}

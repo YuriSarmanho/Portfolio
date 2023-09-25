@@ -1,0 +1,79 @@
+#contact {
+  justify-content: space-evenly;
+}
+
+.btn-option {
+    background-color: inherit;
+    width: 10em;
+    margin: auto;
+    cursor: pointer;
+}
+.contact-container {
+  width: 58%;
+  display: grid;
+  grid-template-columns: 30% 58%;
+  gap: 12%;
+}
+
+.contact-options {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+}
+.contact-option {
+  background-color: transparent;
+  color: var(--PRIMARY-COLOR-DARK);
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 10em;
+  padding: 1.2rem;
+  border: 1px solid;
+  border-radius: 0.5em;
+  transition: ease 0.5s;
+}
+
+.contact-option:hover {
+  background-color: var(--SECONDARY-BG);
+}
+
+.contact-option a {
+  font-family: "Share Tech Mono";
+  text-decoration: none;
+  color: var(--SECONDARY-COLOR);
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+}
+
+form h4 {
+    color: var(--SECONDARY-COLOR);
+}
+
+
+input,
+textarea {
+  width: 100%;
+  padding: 1.5rem;
+  border-radius: 0.5rem;
+  background-color: transparent;
+  border: 2px solid var(--PRIMARY-COLOR-DARK);
+  resize: none;
+  color: var(--SECONDARY-COLOR);
+}
+input:focus,
+textarea:focus {
+  border-color: var(--PRIMARY-COLOR-DARK);
+}
+
+@media (max-width:900px) {
+  .contact-options {
+    display: none;
+  }
+  .contact-container {
+    grid-template-columns: 1fr;
+  }
+}

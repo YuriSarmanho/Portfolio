@@ -1,0 +1,19 @@
+.btn-component {
+  padding: 0.05em 0.2em;
+  border: solid 1px;
+  transition: ease 0.3s;
+  color: var(--PRIMARY-COLOR);
+  text-decoration: none;
+  font-size: 1.2em;
+}
+
+.btn-component:hover {
+  color: var(--PRIMARY-COLOR-HOVER);
+  border-color: var(--PRIMARY-COLOR-HOVER);
+}
+
+/* @media (max-width: 800px) {
+  .btn-component {
+    display: none;
+  }
+} */
