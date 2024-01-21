@@ -10,11 +10,11 @@ import Footer from "./components/Footer";
 function App() {
   return (
     <div className="App">
-     <div className="hidden"><SocialMedia /></div> 
+     {/* <div className="hidden"><SocialMedia /></div>  */}
       <Header />
       <Home/>
-      <About/>
       <Projects/>
+      <About/>
       <Contact/>
       <Footer/>
     </div>

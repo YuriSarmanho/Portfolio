@@ -3,7 +3,8 @@
 }
 
 #about h2 {
-    position: absolute;
+    /* position: absolute; */
+    margin-bottom: -5em;
 }
 
 .about-container {

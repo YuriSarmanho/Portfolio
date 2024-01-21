@@ -1,27 +1,29 @@
 .project-container {
     background-color: var(--SECONDARY-BG);
-    width: 280px;
+    width: 250px;
+    height: 550px;
     border-radius: 1em;
-    padding: 1.5em;
+}
+
+.project-img-container {
+    background-image: url("../../../img/projectImgDefault.png");
+    height:300px ;
+    width:250px ;
+    border-radius:1rem 1rem 0 0;
 }
 
 .project-header {
     justify-content: space-between;
     margin-bottom: .7em;
 }
-.project-links a{
-    font-size: 1.3em;
-    margin-right: .2em;
-    color: var(--PRIMARY-COLOR-DARK);
-}
 
-.project-links a:hover{
-    color: var(--PRIMARY-COLOR);
+.project-img-container {
+    justify-content: end;
 }
-
 
 .project-info{
     font-family: "Share Tech Mono";
+    padding: 1rem;
 }
 .project-info h3{
     font-size: 1.3rem;
@@ -32,4 +34,12 @@
     text-align: justify;
     color: var(--SECONDARY-COLOR);
     font-size: 1rem;
+}
+
+.project-container:hover {
+    -xpedu-transform: scale(1.03);
+    -ms-transform: scale(1.03);
+    transform: scale(1.03);
+    cursor: pointer;
+    transition: ease .2s;
 }

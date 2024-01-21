@@ -1,20 +1,24 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;600&family=Share+Tech+Mono&display=swap");
 * {
-  --PRIMARY-BG: #0e0e0e;
-  --SECONDARY-BG: #1F170D;
-  --PRIMARY-COLOR: #d47300;
-  --PRIMARY-COLOR-DARK: #894a00;
-  --PRIMARY-COLOR-HOVER: #d49800;
-  --SECONDARY-COLOR: #fff4ca;
-  --FOOTER-BGCOLOR: #5c2b00;
+  --PRIMARY-BG: #070B15;
+  --SECONDARY-BG: #0d0d1f;
+  --PRIMARY-COLOR: #009381;
+  --PRIMARY-COLOR-DARK: #00896e;
+  --PRIMARY-COLOR-HOVER: #00d49b;
+  --SECONDARY-COLOR: #cafffb;
+  --FOOTER-BGCOLOR: #005c54;
 
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
+
+
 body {
   background-color: var(--PRIMARY-BG);
+  /* background: url("./img/polygonBackground.png"); */
+  background-size: contain;
   font-family: "Poppins";
   color: var(--PRIMARY-COLOR);
 }

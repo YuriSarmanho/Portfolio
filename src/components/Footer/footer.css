@@ -13,7 +13,7 @@ footer {
 }
 
 .social-icon-footer {
-  color: #eab465;
+  color: var(--SECONDARY-COLOR);
   font-size: 1.5rem;
 }
 
