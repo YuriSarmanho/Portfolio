@@ -28,6 +28,46 @@ const Projects = () => {
       githubLink: "https://github.com/YuriSarmanho/Calculadora",
       id: 2,
     },
+    {
+      name: "CadastroFirebase",
+      description:
+        "Projeto básico utilizando React com o objetivo de aprender o funcionamento do cadastro em sites utilizando os e-mail do google, utilizando a biblioteca do firebase.",
+      pageLink: "#",
+      githubLink: "https://github.com/YuriSarmanho/loginPageWithFirebase",
+      id: 5,
+    },
+    {
+      name: "Em breve",
+      description:
+        "",
+      pageLink: "#",
+      githubLink: "#",
+      id: 4,
+    },
+    {
+      name: "Em breve",
+      description:
+        "",
+      pageLink: "#",
+      githubLink: "#",
+      id: 4,
+    },
+    {
+      name: "Em breve",
+      description:
+        "",
+      pageLink: "#",
+      githubLink: "#",
+      id: 4,
+    },
+    {
+      name: "Em breve",
+      description:
+        "",
+      pageLink: "#",
+      githubLink: "#",
+      id: 4,
+    },
     // {
     //   name: "Quiz",
     //   description:
@@ -44,14 +84,6 @@ const Projects = () => {
     //   githubLink: "#",
     //   id: 4,
     // },
-    {
-      name: "CadastroFirebase",
-      description:
-        "Projeto básico utilizando React com o objetivo de aprender o funcionamento do cadastro em sites utilizando os e-mail do google, utilizando a biblioteca do firebase.",
-      pageLink: "#",
-      githubLink: "https://github.com/YuriSarmanho/loginPageWithFirebase",
-      id: 5,
-    },
     // {
     //   name: "CadastroFirebase",
     //   description:

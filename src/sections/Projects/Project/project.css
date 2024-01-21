@@ -37,9 +37,7 @@
 }
 
 .project-container:hover {
-    -xpedu-transform: scale(1.03);
-    -ms-transform: scale(1.03);
-    transform: scale(1.03);
+    transform: scale(.99);
     cursor: pointer;
     transition: ease .2s;
 }
