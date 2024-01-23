@@ -47,45 +47,37 @@ const Projects = () => {
     //   id: 4,
     // },
     {
-      name: "burger-factory-app",
+      name: "Site Prodepa",
       description:
-        "Primeiro projeto que eu montei utilizando React, uma página de montagem de pedidos, com opções de quantidade de ingredientes e acompanhamentos mostrando no final o total do pedido.",
-      pageLink: "#",
-      githubLink: "https://github.com/kaeuchoa/burger-factory-app",
-      id: 0,
+        "Site institucional realizado durante o meu estágio na PRODEPA, projeto construido através do cms Drupal",
+      pageLink: "https://www.prodepa.pa.gov.br/",
+      githubLink: "#",
+      id: 4,
     },
     {
-      name: "MovieStar",
+      name: "Expenses Organize",
       description:
-        "Projeto desenvolvido em PHP, realizado com o intuito de fixar os aprezidos realizado durante a execução do curso PHP.",
+        "Projeto construido como meio de aprendizado de conceitos de React, passado através do curos 'REACT- THE COMPLETE GUIDE'",
       pageLink: "#",
-      githubLink: "https://github.com/YuriSarmanho/PHPcourse/tree/main/19_movieStar",
-      id: 1,
-    },
-    {
-      name: "Calculadora",
-      description:
-        "Primeiro projeto que eu fiz no aprendizado de Front-end, realizei esse projeto com o intuito de aprender o funcionamento de HTML, CSS, Js. Todo projeto foi montado utilizando apenas essas tecnologias.",
-      pageLink: "#",
-      githubLink: "https://github.com/YuriSarmanho/Calculadora",
-      id: 2,
-    },
-    {
-      name: "CadastroFirebase",
-      description:
-        "Projeto básico utilizando React com o objetivo de aprender o funcionamento do cadastro em sites utilizando os e-mail do google, utilizando a biblioteca do firebase.",
-      pageLink: "#",
-      githubLink: "https://github.com/YuriSarmanho/loginPageWithFirebase",
-      id: 3,
+      githubLink: "https://github.com/YuriSarmanho/REACT-COMPLETE-GUIDE/tree/main/expenses_organize",
+      id: 5,
     },
     // {
-    //   name: "Em breve",
+    //   name: "TODO List",
     //   description:
     //     "",
     //   pageLink: "#",
-    //   githubLink: "#",
-    //   id: 4,
+    //   githubLink: "",
+    //   id: 6,
     // },
+    {
+      name: "Credit Card Cadaster",
+      description:
+        "Projeto que realizei no começo dos meus estudos de front-end, projeto visa fazer uma copia de um cadastro de cartão de crédito, implementando algumas formatações de texto para auxiliar o usuário",
+      pageLink: "#",
+      githubLink: "https://github.com/YuriSarmanho/Credit-Card-Cadaster",
+      id: 7,
+    }
   ];
 
 
