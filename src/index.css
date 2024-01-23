@@ -62,7 +62,3 @@ body::-webkit-scrollbar-thumb {
   background-color: var(--PRIMARY-COLOR);    
   border-radius: 20px;      
 }
-
-.swipe {
-  width: 1440px;
-}

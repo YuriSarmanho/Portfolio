@@ -1,5 +1,6 @@
 import Project from "./Project";
-import "./projects.css";
+import "./swiper.css";
+import { useEffect,useState } from "react";
 
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css/bundle' 
@@ -80,12 +81,41 @@ const Projects = () => {
     }
   ];
 
+  const [slidesPerView, setSlidesPerView] = useState(5)
 
+  useEffect(()=>{
+    function handleResize() {
+      if(window.innerWidth > 1440) {
+        setSlidesPerView(5)
+      }
+      if(window.innerWidth < 1440) {
+        setSlidesPerView(4)
+      }
+      if(window.innerWidth < 1150) {
+        setSlidesPerView(3)
+      }
+      if(window.innerWidth < 885) {
+        setSlidesPerView(2)
+      }
+      if(window.innerWidth < 580) {
+        setSlidesPerView(1)
+      }
+     }
+     handleResize();
+     window.addEventListener("resize", handleResize)
+
+     return () => {
+      window.removeEventListener("resize", handleResize)
+     }
+  },[])
+
+
+   
   return (
     <section id="projects" className="flex">
       <h2>Projetos</h2>
       <Swiper 
-        slidesPerView={5}
+        slidesPerView={slidesPerView}
         loop={true}
         autoplay
         className="swipe"
