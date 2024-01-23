@@ -5,7 +5,7 @@ import "./about.css";
 
 const About = () => {
   const mySkils = {
-    techs: ["Js", "HTML", "CSS", "React", "PHP", "Tailwind","TypeScrip","Figma"],
+    techs: ["Js", "HTML", "CSS", "React", "PHP", "Drupal","TypeScrip","Figma"],
   };
 
   return (

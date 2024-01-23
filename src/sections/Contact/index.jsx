@@ -19,7 +19,7 @@ const Contact = () => {
     );
   };
   return (
-    <section id="contact">
+    <section id="contact" className="flex">
       <h2>Entre em Contato</h2>
       <div className="contact-container">
         <div className="contact-options">

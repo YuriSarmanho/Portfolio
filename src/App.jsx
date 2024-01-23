@@ -6,6 +6,7 @@ import Projects from "./sections/Projects"
 import Contact from "./sections/Contact"
 import SocialMedia from "./components/SocialMedia";
 import Footer from "./components/Footer";
+import { register } from 'swiper/element/bundle'
 
 function App() {
   return (

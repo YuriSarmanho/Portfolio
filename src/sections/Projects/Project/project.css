@@ -7,30 +7,22 @@
 
 .project-img-container {
     background-image: url("../../../img/projectImgDefault.png");
-    height:300px ;
-    width:250px ;
-    border-radius:1rem 1rem 0 0;
+    height: 300px;
+    width: 250px;
+    border-radius: 1rem 1rem 0 0;
 }
 
-.project-header {
-    justify-content: space-between;
-    margin-bottom: .7em;
-}
-
-.project-img-container {
-    justify-content: end;
-}
-
-.project-info{
+.project-info {
     font-family: "Share Tech Mono";
     padding: 1rem;
 }
-.project-info h3{
+
+.project-info h3 {
+    color: var(--PRIMARY-COLOR);
     font-size: 1.3rem;
 }
 
 .project-description {
-    margin-top: 1em;
     text-align: justify;
     color: var(--SECONDARY-COLOR);
     font-size: 1rem;
