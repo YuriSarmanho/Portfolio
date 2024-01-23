@@ -14,6 +14,7 @@ header {
 .mobile-nav-toggle,
 .resume-li {
   display: none;
+  cursor: pointer;
 }
 
 .logo {
