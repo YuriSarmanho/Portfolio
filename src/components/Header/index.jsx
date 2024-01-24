@@ -3,6 +3,7 @@ import SocialMedia from "../SocialMedia";
 import Button from "../Button";
 import "./header.css";
 import { useState } from "react";
+import Resume from "../../files/YuriSarmanhoMonteiro-Currículo.pdf"
 
 const header = () => {
   const [mobileNavActive, setMobileNavActive] = useState(false);
@@ -37,7 +38,7 @@ const header = () => {
             <a href="#contact">Contact</a>
           </li>
           <li className="resume-li">
-            <Button name="Currículo" link="#"/>
+            <Button name="Currículo" link={Resume}/>
           </li>
           <div id="mobile-nav-socialmedia"><SocialMedia /></div>
         </ul>
