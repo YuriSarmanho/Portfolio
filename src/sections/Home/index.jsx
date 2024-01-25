@@ -1,4 +1,5 @@
 import Button from "../../components/Button";
+import Resume from "../../files/YuriSarmanhoMonteiro-Currículo.pdf"
 import "./home.css";
 
 const Home = () => {
@@ -13,7 +14,7 @@ const Home = () => {
         <p>sou desenvolvedor Front-end</p>
       </div>
       <div className="resume-btn">
-        <Button name="Currículo" link="#" />
+        <Button name="Currículo" link={Resume} />
       </div>
     </section>
   );
